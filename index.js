@@ -9,7 +9,7 @@ import ffmpegPath from 'ffmpeg-static'
 dotenv.config()
 
 async function connectBot() {
-  const { state, saveCreds } = await useMultiFileAuthState('/session') // persistent disk
+  const { state, saveCreds } = await useMultiFileAuthState('/tmp/session') // persistent disk
   const { version } = await fetchLatestBaileysVersion()
 
   const sock = makeWASocket({
