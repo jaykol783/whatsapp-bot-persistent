@@ -21,3 +21,4 @@ A WhatsApp bot using Baileys with **persistent login**.
 7. First deploy → scan QR in logs.
 8. ✅ After that, session stays saved on disk.
 
+# whatsapp-bot-persistent
