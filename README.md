@@ -23,3 +23,4 @@ A WhatsApp bot using Baileys with **persistent login**.
 
 # whatsapp-bot-persistent
 # whatsapp-bot-persistent
+# whatsapp-bot-persistent
