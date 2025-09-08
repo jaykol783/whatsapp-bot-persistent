@@ -22,3 +22,4 @@ A WhatsApp bot using Baileys with **persistent login**.
 8. ✅ After that, session stays saved on disk.
 
 # whatsapp-bot-persistent
+# whatsapp-bot-persistent
