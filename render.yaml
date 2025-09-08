@@ -5,10 +5,6 @@ services:
     plan: free
     buildCommand: "apt-get update && apt-get install -y ffmpeg && npm install"
     startCommand: "npm start"
-    disk:
-      name: session-data
-      mountPath: /session
-      sizeGB: 1
     envVars:
       - key: OPENAI_API_KEY
         sync: false
@@ -16,4 +12,3 @@ services:
         sync: false
       - key: BOT_PREFIX
         value: "!"
-
