@@ -3,12 +3,5 @@ services:
     name: whatsapp-bot
     env: node
     plan: free
-    buildCommand: "apt-get update && apt-get install -y ffmpeg && npm install"
-    startCommand: "npm start"
-    envVars:
-      - key: OPENAI_API_KEY
-        sync: false
-      - key: OWNER_JID
-        sync: false
-      - key: BOT_PREFIX
-        value: "!"
+    buildCommand: "npm install"
+    startCommand: "node index.js"
